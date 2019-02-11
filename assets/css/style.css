@@ -1,0 +1,23 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    color: #000;
+}
+/*Start Header*/
+.header{
+    background-image: linear-gradient(to right top, #5d57ea, #6755e8, #7053e5, #7850e3, #7f4ee0);
+    color: #fff ; 
+}
+.header a{
+    color: #fff;
+}
+.header .navbar-brand{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.header .menu{
+    /*justify-content: flex-end;*/
+}
+/*End Header*/
