@@ -4,7 +4,7 @@ body{
 }
 /*Start Header*/
 .header{
-    background-image: linear-gradient(to right top, #5d57ea, #6755e8, #7053e5, #7850e3, #7f4ee0);
+    background:#884bdf
     color: #fff ; 
     width: 100%;
     padding: 0 70px;
