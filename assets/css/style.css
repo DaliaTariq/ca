@@ -8,6 +8,10 @@ body{
     color: #fff ; 
     width: 100%;
     padding: 0 70px;
+    position: absolute;
+    z-index: 99;
+    top:0;
+    left: 0;
 }
 .header a{
     color: #fff;
@@ -53,3 +57,36 @@ body{
     transition-duration: 500ms;
 }
 /*End Header*/
+/*Start Home*/
+.home{
+    background-image: url('../images/welcome-bg.png');
+    background-position: bottom center;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+    z-index: 1;
+}
+.home .home-hrading{
+    padding-top: 350px; 
+    color: #fff;
+}
+.home .home-hrading h2{
+    font-size: 100px;
+    font-weight: 700;
+    position: relative;
+    z-index: 3;
+}
+.home .home-hrading h3{
+    font-size: 332px;
+    position: absolute;
+    top: 205px;
+    font-weight: 900;
+    left: -13px;
+    z-index: -1;
+    opacity: .1;
+}
+.home .home-hrading p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+}
