@@ -176,3 +176,93 @@ body{
 .home .home-thump img{
     width: 100%;
 }
+/*Start about*/
+.about{
+    width: 100%;
+ 
+}
+.about .about-content{
+    border: 1px solid #eff2f6;
+    padding: 40px;
+    border-radius: 40px 40px 40px 0px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about .about-content .icon{
+    margin-bottom: 25px;
+}
+.about .about-content .icon i{
+    color: #fb397d;
+    font-size: 36px;
+}
+.about .about-content h4{
+    font-size: 22px;
+    color: #5b32b4;
+    margin-bottom: 15px;
+}
+.about .about-content p{
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+}
+.about .about-content:hover{
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    transition-duration: 800ms;
+}
+.about .about-description{
+    margin-top: 150px;
+}
+.about .about-description .about-text{
+    margin-left: 85px;
+}
+
+.about .about-description .about-text h2{
+    color: #5b32b4;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.about .about-description .about-text p{
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+}
+.about .about-description .download-store{
+    width: 100%;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+.about .about-description .download-store .download-app{
+    width: 50%;
+    float: left;
+    margin-right: -60px;
+ 
+}
+.about .about-description .download-store .download-app a{
+    border: 1px solid #ddd;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 30px 30px 30px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.about .about-description .download-store .download-app i{
+    display: inline-block;
+    color: #47425d;
+    font-size: 24px;
+  
+}
+.about .about-description .download-store .download-app p{
+    display: inline-block;
+    color: #47425d;
+    font-size: 16px;
+    line-height: 1;
+}
+.about .about-description .download-store .download-app p span{
+    font-size: 12px;
+    display: block;
+}
