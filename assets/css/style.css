@@ -129,3 +129,14 @@ body{
     background: #6f52e5;
     transition-duration: 500ms;
 }
+.home .home-thump{
+    width: 45%;
+    position: absolute;
+    bottom: -130px;
+    right: 85px;
+    
+   
+}
+.home .home-thump img{
+    width: 100%;
+}
