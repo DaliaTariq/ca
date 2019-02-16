@@ -3,9 +3,8 @@ $(document).ready(function () {
     //OWL SLIDER
     $('.owl-carousel').owlCarousel({
         loop:true,
-        margin:10,
         dots:true,
-        autoplayHoverPause:true,
+        autoplay:true,
         smartSpeed:350,
         responsiveClass:true,
         responsive:{

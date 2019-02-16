@@ -369,7 +369,25 @@ body{
 }
 /******************End  video************************/
 /*screenShots Start*/
-.screenShots .slides{
-    text-align: center;
+
+.screenShots .owl-carousel .item .slide-image{
+    margin-right: 30px;
 }
+.screenShots .slide-image img{
+    width: 100%;
+}
+.slide .owl-dots{
+    display: inline-block !important;
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba;
+    border-radius: 50%;
+    margin: 0 6px;
+    margin-top: 50px;
+}
+.slide .owl-dot.active {
+    background-color: #fb397d;
+    border: transparent;
+}
+
 /****************screenShots end*******************/
