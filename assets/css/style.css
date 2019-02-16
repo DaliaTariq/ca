@@ -257,7 +257,6 @@ body{
 
 .about .about-description .download-store .download-app i{
     display: inline-block;
-   
     font-size: 24px;
     margin-right: 15px;
   
@@ -279,4 +278,22 @@ body{
     color: #fff;
     transition-duration: 500ms;
     
+}
+/*start features*/
+.features .feature-content i{
+    color: #fb397d;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.features .feature-content h5{
+    display: inline-block;
+    font-size: 22px;
+    color: #5b32b4;
+}
+.features .feature-content p{
+    margin-top: 15px;
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
 }
