@@ -279,6 +279,7 @@ body{
     transition-duration: 500ms;
     
 }
+/*********End about***********/
 /*start features*/
 .features .feature-content i{
     color: #fb397d;
@@ -297,3 +298,73 @@ body{
     font-size: 16px;
     font-weight: 300;
 }
+/**************End features*************/
+/*Start Video*/
+
+.video .vedio-play{
+    background-image: url('../images/video.jpg');
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 20px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 1;
+}
+.video .vedio-play .play-button a{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fb397d;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+    display: block;
+    font-size: 36px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transition-duration: 500ms;
+    
+
+}
+.video .vedio-play .play-button a:hover{
+    background-color: #a865e1;
+    transition-duration: 500ms;
+}
+.video .facts-counter{
+    position: relative;
+    z-index: auto;
+    background: #a865e1;
+    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
+    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
+    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
+    background: -o-linear-gradient(right, #7873ed, #a865e1);
+    background: linear-gradient(to left, #7873ed, #a865e1);
+    padding: 180px 0 80px 0;
+    top: -100px;
+}
+.video .facts-counter .counter-content{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.video .facts-counter .counter-content .counter{
+    align-self: flex-end;
+    min-width: 100px;
+}
+.video .facts-counter .counter-content .counter h3{
+    font-size: 60px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.video .facts-counter .counter-content .content i{
+    font-size: 36px;
+} 
+.video .facts-counter .counter-content .content p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+/******************End  video************************/
