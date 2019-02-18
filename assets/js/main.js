@@ -1,21 +1,24 @@
 $(document).ready(function () {
 
     //OWL SLIDER
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        dots:true,
-        autoplay:true,
-        smartSpeed:350,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1
+    $('.owl-carousel.slide').owlCarousel({
+        loop: true,
+        items: 5,
+        dots: true,
+        autoplay: true,
+        smartSpeed: 1500,
+        margin: 30,
+        center: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
             },
-            600:{
-                items:3
+            480: {
+                items: 3
             },
-            1000:{
-                items:5
+           900: {
+                items: 5
             }
         }
     })

@@ -369,25 +369,32 @@ body{
 }
 /******************End  video************************/
 /*screenShots Start*/
-
-.screenShots .owl-carousel .item .slide-image{
-    margin-right: 30px;
+.owl-carousel.slide{
+    padding: 0 6%;
 }
-.screenShots .slide-image img{
+
+.owl-carousel.slide .slide-image img{
     width: 100%;
 }
-.slide .owl-dots{
+.owl-carousel.slide .owl-dots{
     display: inline-block !important;
+    width: 100%;
+    text-align: center;
+}
+.owl-carousel.slide button.owl-dot {
     height: 11px;
     width: 11px;
     border: 2px solid #a49fba;
     border-radius: 50%;
+    display: inline-block;
     margin: 0 6px;
     margin-top: 50px;
+    text-align: center;
 }
-.slide .owl-dot.active {
-    background-color: #fb397d;
-    border: transparent;
+.owl-carousel.slide button.owl-dot.active{
+    background: #fb397d;
+    border:transparent;
 }
+
 
 /****************screenShots end*******************/
