@@ -6,6 +6,9 @@ body{
 .bg-white {
     background-color: #fff!important;
 }
+.bg-blue{
+    background: #f5f9fc;
+}
 .section{
     padding-top: 100px;
     padding-bottom: 100px;
