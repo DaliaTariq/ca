@@ -440,6 +440,7 @@ body{
     color: #fff;
 } 
 
+
 .pricing .card .card-body{
     text-align: center;
     padding: 0;
@@ -456,5 +457,26 @@ body{
 }
 .pricing .card .card-footer{
     border-bottom-right-radius: 30px;
+   background-color: #726a84;
+    text-align: center;
+    transition-duration: 500ms;
+    padding: 0;
+    
 }
+.pricing .card .card-footer a{
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.pricing .card .card-footer a:hover{
+    text-decoration: none ;
+}
+.pricing .card:hover >.card-footer{
+    background-color: #a865e1;
+    transition-duration: 500ms;
+}
+
+
 /*pricing End*/
