@@ -480,3 +480,30 @@ body{
 
 
 /*pricing End*/
+/*testimonials start*/
+.testimonials{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    display: block;
+}
+
+
+
+/**/
+.testimonials .memberShib{
+    width: 100%;
+   align-items: center;
+   background: linear-gradient(to left, #7873ed, #a865e1);
+   padding: 50px 0;
+}
+.testimonials .memberShib .membership-description{
+    color: #fff;
+}
+.testimonials .memberShib .membership-description h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2
+}
+
+/*testimonials end*/
