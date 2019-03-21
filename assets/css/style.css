@@ -620,7 +620,7 @@ text-align: center;
     left:5px;
 }
 .contact .text p{
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     color: #726a84;
     font-size: 16px;
     font-weight: 300;
@@ -633,4 +633,31 @@ text-align: center;
 }
 .contact .contactInformation p  span{
     color: #5b32b4;
+}
+.contact form .form-group input,
+.contact form .form-group textarea{
+    font-size: 18px;
+    padding: 15px 15px;
+    border-radius: 25px 25px 25px 0;
+    display: block;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+.contact form .btn.mybtn{
+    background: #fb397d;
+    height: 48px;
+    min-width: 185px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 22px 25px 22px 0;
+    border: 1px solid transparent;
+}
+.contact form .btn.mybtn:hover{
+    background: #5b32b4;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
 }
