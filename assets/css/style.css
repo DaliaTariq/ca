@@ -505,5 +505,37 @@ body{
     font-weight: 400;
     line-height: 1.2
 }
+.testimonials .memberShib .membership-description h4{
+    font-size: 36px;
+}
+.testimonials .memberShib .membership-description p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.testimonials .memberShib .start-btn{
+    text-align: right;
+}
+.testimonials .memberShib .start-btn a{
+ display: inline-block;
+ background-color: #fff;
+ color: #fb397d;
+ height: 45px;
+ min-width: 155px;
+ line-height: 45px;
+ font-weight: 500;
+border-radius: 23px 23px 23px 0;
+text-align: center;
+-webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.testimonials .memberShib .start-btn a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0056b3;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
 
 /*testimonials end*/
