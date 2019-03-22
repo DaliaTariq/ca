@@ -1,6 +1,7 @@
 body{
     font-family: 'Cabin', sans-serif;
     color: #000;
+    overflow-x: hidden;
 }
 /*****************************GLOBAL******************/
 .bg-white {
@@ -43,8 +44,8 @@ ul{
 ul li{
     display: inline-block;
 }
-/*Start Header*/
-.header{
+/*******************************************************************************Start Header*/
+/*.header{
     background:#884bdf
     color: #fff ; 
     width: 100%;
@@ -97,7 +98,7 @@ ul li{
     border-color: transparent;
     transition-duration: 500ms;
 }
-/*End Header*/
+/*End Header*********************************************************************************************************/
 /*Start Home*/
 .home{
     background-image: url('../images/welcome-bg.png');
