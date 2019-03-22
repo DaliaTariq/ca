@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //Scroll Navbar
+    //Scroll Navbar and back to top button
     var scrollTop =0;
     $(window).scroll(function(){
         scrollTop = $(window).scrollTop();
@@ -9,7 +9,7 @@ $(document).ready(function () {
 			$('.backToTop').addClass ('visible');
 			
         }else if (scrollTop <260){
-            $('.navbar').removeClass('scrollNav');
+            $('.header').removeClass('scrollNav');
 			$('.backToTop').removeClass ('visible');
         };
     });

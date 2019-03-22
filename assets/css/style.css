@@ -50,14 +50,16 @@ ul li{
     color: #fff !important; 
     width: 100%;
     padding: 0 4%;
-    position: absolute;
+    position: fixed;
     z-index: 99;
     top:0;
     left: 0;
+    height: 90px;
 }
 /**Scrolled NavBar*/
 .scrollNav{
     background: #884bdf !important; 
+   
 }
 
 /*back to top button*/
@@ -110,7 +112,7 @@ ul li{
 }
 
 
-.header form a{
+.header .signBtn a{
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -123,7 +125,7 @@ ul li{
     transition-duration: 500ms;
     
 }
-.header  form a:hover{
+.header  .signBtn a:hover{
     text-decoration: none;
     background: #fb397d;
     color: #fff;
@@ -747,3 +749,37 @@ text-align: center;
     margin-top: 0;
 }
 /*End footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Qerey*/
+@media (max-width: 991px) and (min-width: 768px){
+    .header{
+        padding: 0;
+        height: 60px;
+        line-height: 60px;
+    }
+    .header .navbar-brand{
+        font-size: 50px;
+    }
+  .navbar-collapse.menu{
+        padding: 30px;
+        border-radius: 3px;
+        background-color: #5b32b4;
+        text-align: left
+    }
+}
