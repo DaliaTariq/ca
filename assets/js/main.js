@@ -1,5 +1,24 @@
 $(document).ready(function () {
 
+    //Scroll Navbar
+    var scrollTop =0;
+    $(window).scroll(function(){
+        scrollTop = $(window).scrollTop();
+        if (scrollTop > 260){
+            $('.header').addClass ('scrollNav');
+			$('.backToTop').addClass ('visible');
+			
+        }else if (scrollTop <260){
+            $('.navbar').removeClass('scrollNav');
+			$('.backToTop').removeClass ('visible');
+        };
+    });
+	$('.backToTop').click (function(){
+		$('body , html').animate({
+			scrollTop:0
+		},800);
+	});
+
     //OWL SLIDER
     $('.owl-carousel.slide').owlCarousel({
         loop: true,

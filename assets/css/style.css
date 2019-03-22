@@ -55,6 +55,38 @@ ul li{
     top:0;
     left: 0;
 }
+/**Scrolled NavBar*/
+.scrollNav{
+    background: #884bdf !important; 
+}
+
+/*back to top button*/
+.backToTop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #fb397d;
+    color: #fff;
+    text-align: center;
+    right: 30px;
+    bottom: 0;
+    font-size: 24px;
+    line-height: 50px;
+    z-index: 10;
+    transition-duration: 0.2s;
+    display: none;
+}
+.backToTop:hover{
+    color: white;
+    opacity: 1;
+    transition-duration: 0.2s;
+    line-height: 30px;
+}
+.visible{
+    display: block;
+}
+
+/*********************************/
 .header a{
     color: #fff;
 }
