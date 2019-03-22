@@ -3,6 +3,7 @@ body{
     color: #000;
     overflow-x: hidden;
 }
+
 /*****************************GLOBAL******************/
 .bg-white {
     background-color: #fff!important;
@@ -12,6 +13,7 @@ body{
 }
 a:hover{
     text-decoration: none;
+    color: #fff;
 }
 .section{
     padding-top: 100px;
@@ -100,6 +102,9 @@ ul li{
     line-height: 1;
     color: #fff;
 }
+.header .navbar-brand:hover{
+    color:#fff;
+}
 
 .navbar-nav .nav-item .nav-link{
     font-size: 16px;
@@ -108,7 +113,9 @@ ul li{
     transition-duration: 500ms;
     padding: 35px 15px;
     color: #fff;
-
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #fff;
 }
 
 
@@ -771,7 +778,7 @@ text-align: center;
     .header{
         padding: 0;
         height: 60px;
-        line-height: 60px;
+      /*  line-height: 60px;*/
     }
     .header .navbar-brand{
         font-size: 50px;
@@ -781,5 +788,8 @@ text-align: center;
         border-radius: 3px;
         background-color: #5b32b4;
         text-align: left
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 7.5px 15px;
     }
 }

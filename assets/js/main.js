@@ -17,7 +17,25 @@ $(document).ready(function () {
 		$('body , html').animate({
 			scrollTop:0
 		},800);
-	});
+    });
+    
+    //prevent link defult with href=#
+    $('a[href="#"]').click(function ($) {
+        $.preventDefault()
+    });
+
+      // Add smooth scrolling to all links
+  $(".nav-link").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 
     //OWL SLIDER
     $('.owl-carousel.slide').owlCarousel({
@@ -67,4 +85,7 @@ $(document).ready(function () {
         slide: 'div',
         autoplay: true
     });*/
+
+
+    
 });
