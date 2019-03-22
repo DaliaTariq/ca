@@ -36,6 +36,8 @@ $(document).ready(function () {
       });
     } // End if
   });
+  //WOW Animation
+  new WOW().init();
 
     //OWL SLIDER
     $('.owl-carousel.slide').owlCarousel({
@@ -86,6 +88,10 @@ $(document).ready(function () {
         autoplay: true
     });*/
 
-
+//Counter Up
+$('.counter h3').counterUp({
+    delay: 10,
+    time: 2000
+});
     
 });
