@@ -45,11 +45,11 @@ ul li{
     display: inline-block;
 }
 /*******************************************************************************Start Header*/
-/*.header{
-    background:#884bdf
-    color: #fff ; 
+.header{
+    /*background:#884bdf;*/
+    color: #fff !important; 
     width: 100%;
-    padding: 0 70px;
+    padding: 0 4%;
     position: absolute;
     z-index: 99;
     top:0;
@@ -64,21 +64,21 @@ ul li{
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: #fff;
 }
-.navbar-nav {
-    margin-left: 200px;
-}
-.navbar-nav .nav-link{
+
+.navbar-nav .nav-item .nav-link{
     font-size: 16px;
-    padding: 35px 15px;
+    display: inline-block;
     font-weight: 500;
-    border-radius: 30px;
+    transition-duration: 500ms;
+    padding: 35px 15px;
+    color: #fff;
 
 }
-.header .menu form{
-  margin-left: 60px;
-}
-.header .menu form a{
+
+
+.header form a{
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -91,7 +91,7 @@ ul li{
     transition-duration: 500ms;
     
 }
-.header .menu form a:hover{
+.header  form a:hover{
     text-decoration: none;
     background: #fb397d;
     color: #fff;
