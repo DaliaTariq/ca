@@ -93,5 +93,12 @@ $('.counter h3').counterUp({
     delay: 10,
     time: 2000
 });
+
+
+$('.footer').footerReveal({
+    shadow: true,
+    shadowOpacity: 0.3,
+    zIndex: -101
+});
     
 });
