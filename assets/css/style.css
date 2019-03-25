@@ -780,18 +780,12 @@ text-align: center;
 
 
 
-/*Media Qerey*/
+/***********************************************Media Qerey***************************/
 
 @media (min-width: 1200px){
     .container {
         max-width: 1140px;
     }
- }
-
-
- @media (min-width: 768px){
-   
-    
  }
 
 
