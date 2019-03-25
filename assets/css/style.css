@@ -272,6 +272,9 @@ ul li{
 .about .about-description{
     margin-top: 150px;
 }
+.about .about-description .about-img img{
+    width:100%;
+}
 .about .about-description .about-text{
     margin-left: 85px;
 }
@@ -785,8 +788,12 @@ text-align: center;
 
  /*MOBILE*/
 @media(min-width:320px  and max-width:767px){
-    .container {
-       overflow-x: hidden;
+    .header .container-fluid {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    .home .container{
+        width: 100%;
     }
     
 }
