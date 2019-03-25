@@ -149,6 +149,7 @@ ul li{
     height: 900px;
     position: relative;
     z-index: 1;
+   
 }
 .home .container,
 .home .container .row{
@@ -276,7 +277,7 @@ ul li{
     width:100%;
 }
 .about .about-description .about-text{
-    margin-left: 85px;
+    /*margin-left: 85px;*/
 }
 
 .about .about-description .about-text h2{
@@ -292,7 +293,7 @@ ul li{
 }
 .about .about-description .download-store{
     width: 100%;
-    margin-left: 85px;
+    /*margin-left: 85px;*/
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -786,16 +787,55 @@ text-align: center;
  }
 
 
- /*MOBILE*/
-@media(min-width:320px  and max-width:767px){
-    .header .container-fluid {
-      width: 100%;
-      overflow-x: hidden;
-    }
-    .home .container{
-        width: 100%;
-    }
+ @media (min-width: 768px){
+   
     
+ }
+
+
+ /*MOBILE*/
+@media(min-width:320px) and (max-width:767px){
+    .header{
+        padding: 0;
+    }
+
+    .header .navbar-brand{
+        font-size: 48px;
+    }
+   
+    .home .home-hrading h2{
+        font-size: 48px;
+    }
+    .home .home-hrading h3{
+        font-size: 252px;
+    }
+    .home .start form input[type=email]{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .navbar-collapse.menu{
+        padding: 20px;
+        border-radius: 3px;
+        background-color: #5b32b4;
+        text-align: left
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 5px 15px;
+    }
+    .home .home-thump{
+        width: 90%;
+        right: 0;
+        bottom: -74px;
+    }
+}
+
+
+
+/*ibad*/
+@media(min-width:768px) and (max-width:1024px){
+
+  
 }
 
 
