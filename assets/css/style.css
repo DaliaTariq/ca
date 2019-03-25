@@ -879,17 +879,6 @@ text-align: center;
 
 
 /*ibad*/
-@media(min-width:768px) and (max-width:1024px){
-
-  
-}
-
-
-
-
-
-
-
 
 
 @media (max-width: 991px) and (min-width: 768px){
@@ -899,7 +888,7 @@ text-align: center;
       /*  line-height: 60px;*/
     }
     .header .navbar-brand{
-        font-size: 50px;
+        font-size: 48px;
     }
   .navbar-collapse.menu{
         padding: 30px;
@@ -910,4 +899,31 @@ text-align: center;
     .navbar-nav .nav-item .nav-link{
         padding: 7.5px 15px;
     }
+    .home .home-thump{
+        width: 50%;
+        right: 0;
+        bottom: -100px;
+    }
+    .section .section-title h2{
+        font-size: 38px;
+    }
+    .about .about-content{
+        padding:30px 10px;
+    }
+    .about .about-description .about-text h2{
+        font-size: 30px;
+    }
+    .about .about-description .download-store .download-app a{
+        height: 60px;
+    }
+    .video .facts-counter .counter-content .counter{
+        min-width: 50px;
+    }
+    .video .facts-counter .counter-content .counter h3{
+        font-size: 30px;
+    }
+    .contact .contactInformation p{
+        font-size: 16px;
+    }
+    
 }
