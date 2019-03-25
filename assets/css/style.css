@@ -463,6 +463,7 @@ ul li{
     border-radius: 30px 30px 0 0;
     border-bottom-right-radius: 30px;
     background-color: white;
+    margin-bottom: 30px;
 }
 .pricing .card .card-header{
     padding: 40px 0;
@@ -854,6 +855,24 @@ text-align: center;
         text-align: center;
         padding: 15px 30px;
         height: 60px;
+    }
+    .video .vedio-play{
+        height: 250px;
+    }
+    .video .vedio-play .play-button a{
+        top: 35%;
+    left: 35%;
+    }
+    .video .facts-counter .counter-content{
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+    .testimonials .memberShib .membership-description h4{
+        font-size: 32px;
+    }
+    .testimonials .memberShib .start-btn{
+        text-align: left;
+        margin-top: 20px;
     }
 }
 
