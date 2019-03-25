@@ -1,8 +1,9 @@
 body{
     font-family: 'Cabin', sans-serif;
     color: #000;
-    overflow-x: hidden;
+   /* overflow-x: hidden;*/
 }
+
 
 /*****************************GLOBAL******************/
 .bg-white {
@@ -774,6 +775,30 @@ text-align: center;
 
 
 /*Media Qerey*/
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+ }
+
+
+ /*MOBILE*/
+@media(min-width:320px  and max-width:767px){
+    .container {
+       overflow-x: hidden;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 991px) and (min-width: 768px){
     .header{
         padding: 0;
